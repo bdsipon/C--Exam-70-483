@@ -16,14 +16,17 @@ namespace SayHello
         {
             InitializeComponent();
         }
-
+#region MTLCode
         private void button1_Click(object sender, EventArgs e)
         {
             SayHello();
         }
         public void SayHello()
         {
+            // this creates a message box
             MessageBox.Show("Hello My first programming");
+            //add more functionality
         }
+#endregion
     }
 }
