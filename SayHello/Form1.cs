@@ -16,5 +16,14 @@ namespace SayHello
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SayHello();
+        }
+        public void SayHello()
+        {
+            MessageBox.Show("Hello My first programming");
+        }
     }
 }
