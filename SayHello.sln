@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExample", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringWriter_StringReader", "StringWriter_StringReader\StringWriter_StringReader.csproj", "{ED75D768-860A-4099-8B48-7CE8F8D49EAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties and Fields", "Properties and Fields\Properties and Fields.csproj", "{62485153-6C05-4208-9729-F886C40D03BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{ED75D768-860A-4099-8B48-7CE8F8D49EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED75D768-860A-4099-8B48-7CE8F8D49EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED75D768-860A-4099-8B48-7CE8F8D49EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62485153-6C05-4208-9729-F886C40D03BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62485153-6C05-4208-9729-F886C40D03BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62485153-6C05-4208-9729-F886C40D03BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62485153-6C05-4208-9729-F886C40D03BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
