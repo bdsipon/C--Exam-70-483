@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringWriter_StringReader",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties and Fields", "Properties and Fields\Properties and Fields.csproj", "{62485153-6C05-4208-9729-F886C40D03BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{B9FCDD69-BEE8-4C88-BF3A-0E10F98B907B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{62485153-6C05-4208-9729-F886C40D03BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62485153-6C05-4208-9729-F886C40D03BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62485153-6C05-4208-9729-F886C40D03BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FCDD69-BEE8-4C88-BF3A-0E10F98B907B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FCDD69-BEE8-4C88-BF3A-0E10F98B907B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FCDD69-BEE8-4C88-BF3A-0E10F98B907B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FCDD69-BEE8-4C88-BF3A-0E10F98B907B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
