@@ -17,10 +17,19 @@ namespace Collection_and_Arrays
             dogs.Add("Collie");
             dogs.Add("Retriever");
 
-            // foreach to move through the list
-            foreach (var dog in dogs)
+            //// foreach to move through the list
+            //foreach (var dog in dogs)
+            //{
+            //    Console.WriteLine(dog + "");
+            //}
+            //Console.WriteLine("....................");
+            Console.WriteLine(dogs[2]);
+
+            //create an array
+            int[] a1 = new int[] { 1, 2, 3, 4, 5, 6 };
+            foreach(int i in a1)
             {
-                Console.WriteLine(dog + "");
+                Console.WriteLine(i + "");
             }
         }
     }

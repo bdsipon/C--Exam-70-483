@@ -22,7 +22,7 @@ namespace ClassessAndObjectExample
             Employee e1 = new Employee();
         
 
-            string p = e1.promote("Sipon","Hossain",4);
+            string p = e1.promote();
             MessageBox.Show(p);
 
         }
@@ -30,16 +30,14 @@ namespace ClassessAndObjectExample
 
     public class Employee
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public int Seniority { get; set; }
 
-        public string promote( string first, string last, int seniority )
+        public string promote(  )
         {
-            first = firstName;
-            last = lastName;
-            Seniority = Seniority;
-            return "{1}{2}{3}Employee has been promoted";
+           
+            return "Employee has been promoted";
 
         }
         public string AnnualReview()
